@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['ng.jumia.is', 'anotherdomain.com'], // Only hostnames here
+  },
 };
 
 export default nextConfig;
